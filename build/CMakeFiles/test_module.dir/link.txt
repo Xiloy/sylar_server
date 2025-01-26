@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC  -rdynamic -O3 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated-declarations -g -shared -Wl,-soname,libtest_module.so -o /root/Projects/sylar_server/lib/libtest_module.so CMakeFiles/test_module.dir/tests/test_module.cc.o   -L/apps/sylar/lib  -L/apps/sylar/lib64 
